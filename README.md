@@ -6,14 +6,14 @@ cmsrel CMSSW_10_6_19_patch2
 cd CMSSW_10_6_19_patch2/src
 cmsenv
 mkdir Configuration
-git clone https://github.com/pieterdavid/NanoGenScripts -o Configuration/NanoGenScripts
+git clone https://github.com/pieterdavid/NanoGenScripts.git -o Configuration/NanoGenScripts
 scram b
 ```
 or inside an existing CMSSW area
 ```bash
 cd $CMSSW_BASE/src
 mkdir -p Configuration
-git clone https://github.com/pieterdavid/NanoGenScripts -o Configuration/NanoGenScripts
+git clone https://github.com/pieterdavid/NanoGenScripts.git -o Configuration/NanoGenScripts
 scram b
 ```
 
